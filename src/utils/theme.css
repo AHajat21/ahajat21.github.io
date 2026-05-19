@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap');
+
+:root {
+  --bg:        #04001a;
+  --bg2:       #080033;
+  --glow:      #3d33ff;
+  --glow2:     #6e66ff;
+  --text:      #e6e6e6;
+  --muted:     #a2b4c3;
+  --accent:    #cfccff;
+  --border:    rgba(109, 102, 255, 0.25);
+  --card-bg:   rgba(8, 0, 51, 0.8);
+
+  /* keep existing theme vars for compatibility */
+  --primary-500: #0d00ff;
+  --primary-700: #6e66ff;
+  --primary-900: #cfccff;
+  --secondary-700: #a2b4c3;
+}
