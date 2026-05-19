@@ -2,8 +2,8 @@
 // Add arrow to scroll down
 // Ripple background color effect in Project Section
 
-import { useEffect, useState, useRef } from 'react'
-import { maxGeneratorDuration, motion } from "motion/react"
+import { useState, useRef } from 'react'
+import { motion } from "motion/react"
 import emailjs from '@emailjs/browser'
 
 import styles from "../styles/landingPage.module.css"

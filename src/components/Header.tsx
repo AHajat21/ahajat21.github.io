@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import { motion } from 'motion/react'
 
 import styles from "../styles/header.module.css"

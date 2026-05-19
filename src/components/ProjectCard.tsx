@@ -1,5 +1,5 @@
 // Animate changing colors
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AnimatePresence, motion } from "motion/react"
 
 import styles from "../styles/projectCard.module.css"
