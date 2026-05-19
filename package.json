@@ -1,12 +1,9 @@
 {
-	"homepage": "http://ahajat21.github.io/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-	 "predeploy": "npm run build",
-	 "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -14,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@vercel/analytics": "^2.0.1",
     "motion": "^12.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
