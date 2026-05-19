@@ -45,7 +45,10 @@ const ProjectCard= ({title, shortDesc, longDesc, stack, date, link}: ProjectCard
 
 			<div className={styles.info}>
 				<p className={styles.projectDate}>{date}</p>
-				<a className={styles.arrow} href={link} target="_blank">→</a>
+				{link != "" && 
+					<a className={styles.arrow} href={link} target="_blank">→</a>
+				}
+				
 			</div>
 		</motion.div>
 	)

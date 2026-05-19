@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 import styles from "../styles/header.module.css"
 
 const Header = () => {
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+  const scrollToTop = () => document.body.scrollTo({top: 0})
 
   return (
     <header className={styles.header}>

@@ -7,9 +7,8 @@
 	width: 2px;
 	background: var(--glow);
 	transform: scaleY(0);
-	transform-origin: bottom;
 
-	transition: transform 0.3s ease-in;
+	transition: transform 0.25s ease-in;
 }
 .projectCard:hover::before {
 	transform: scaleY(1);
@@ -99,4 +98,14 @@
 }
 .arrow:hover {
 	border-color: var(--glow2);
+}
+
+@media (max-width: 420px) {
+	.projectCard {
+		grid-template-columns: auto;
+	}
+	.info {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }

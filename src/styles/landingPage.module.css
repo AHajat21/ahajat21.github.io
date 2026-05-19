@@ -176,6 +176,8 @@
 .contactBox {
 	position: relative;
 	border: 2px solid var(--border);
+	background: #01003944;
+	backdrop-filter: blur(2px);
 	padding: 1.5rem 3rem 1.5rem 3rem;
 	margin-bottom: 3rem;
 	width: 100%;
@@ -298,6 +300,7 @@
 .contactLinks {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 1rem;
 
 	width: 100%;

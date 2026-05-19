@@ -4,10 +4,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
-	--data-theme: dark
 }
 
+html {overflow: auto;}
 html, body {
 	background: var(--bg);
 	color: var(--text);
